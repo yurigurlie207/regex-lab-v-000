@@ -3,6 +3,7 @@ def starts_with_a_vowel?(word)
      return true
   end
 
+  return false;
 
 end
 
