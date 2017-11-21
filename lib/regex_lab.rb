@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  re =  /\A[aeiou]/
+
+re =  /\A[aeiou]/
 
  word == re ? true : false
 
