@@ -8,9 +8,10 @@ end
 
 def words_five_letters_long(text)
   returnarray = []
+  re = /[a-z]{5}/
 
   text.split(' ').each do |word|
-    if (word ~= /[a-z]{5}/)
+    if (word ~= )
       returnarray << word
     end
   end
