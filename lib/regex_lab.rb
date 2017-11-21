@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
 
-word =~ /\A[aeiou]/ ? true : false
+word.capitalize! =~ /\A[AIEOU]/ ? true : false
 
 
 
