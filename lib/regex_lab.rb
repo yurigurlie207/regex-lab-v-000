@@ -12,7 +12,7 @@ def words_five_letters_long(text)
   textArray = text.split(' ')
 
   textArray.each do |word|
-    if (word == re )
+    if (word == re)
       returnarray << word
     end
   end
