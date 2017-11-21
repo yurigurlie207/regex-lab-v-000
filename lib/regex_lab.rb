@@ -26,5 +26,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone =~ /.*[0-9].*{7}/ ? true : false
+  phone =~ /\A\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*[0-9]\D*\z/ ? true : false
 end
