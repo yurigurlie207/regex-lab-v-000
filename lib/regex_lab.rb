@@ -11,7 +11,7 @@ def words_five_letters_long(text)
   re = /[a-z]{5}/
   textArray = text.split(' ')
 
-  text.split(' ').each do |word|
+  textArray.each do |word|
     if (word == re )
       returnarray << word
     end
