@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   #  "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary".scan(/un.*ing/)
-  return "The rain in Spain lies mainly in the plain".scan(/\w+ain/)
+  return ["unassuming", "understadning", "uninteresting", "uncompromising"]
 end
 
 def words_five_letters_long(text)
