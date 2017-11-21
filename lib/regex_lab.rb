@@ -10,10 +10,11 @@ def words_five_letters_long(text)
   returnarray = []
 
   text.split(' ').each do |word|
-    if word ~= /[a-z]{5}/
+    if (word ~= /[a-z]{5}/)
       returnarray << word
     end
   end
+  
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
